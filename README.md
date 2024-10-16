@@ -1,5 +1,34 @@
 This project is an Android application developed using Java and Gradle. The application appears to be a utility tool with multiple functionalities, including a calculator, a unit converter, personal notes, and an about section. It also includes user authentication and account management features using Firebase.
 
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/c7fefe00-40c2-431a-a900-fb40de0eb6dc" width="300" alt="Image 1" />
+</div>
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/c12b8d25-1012-41cc-b7bb-9d30f46536bc" width="300" alt="Image 2" />
+</div>
+<br> <!-- line break to separate the rows -->
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/09acefe3-d0f2-4a08-afd7-aac1380fd642" width="300" alt="Image 3" />
+</div>
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/e07fafea-4624-451f-8f67-672d6641ef9d" width="300" alt="Image 4" />
+</div>
+<br> <!-- line break to separate the rows -->
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/ad94bfc5-f234-4716-bb8f-bd5fc9a8a0d6" width="300" alt="Image 5" />
+</div>
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/d8b3a922-fb98-4bdb-b810-86ee4c0ad912" width="300" alt="Image 6" />
+</div>
+<br> <!-- line break to separate the rows -->
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/2f073259-ea5a-4e61-889a-78734c93562b" width="300" alt="Image 7" />
+</div>
+<div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/a4c87cde-975a-4fec-8aab-2818bd3725e3" width="300" alt="Image 8" />
+</div>
+
+
 ### Key Components
 
 1. **MainActivity.java**:
