@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BMICalculator">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Your Weight"
+            android:textSize="30sp"
+            />
+        <EditText
+            android:id="@+id/InputKGID"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="kg"
+            android:textColorHint="#DFDCDC"
+            android:background="@drawable/round_coner_edit_text"
+            android:padding="8sp"
+            android:inputType="numberDecimal"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="3sp"
+        android:layout_marginLeft="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Your Height"
+            android:textSize="30sp"
+            />
+        <EditText
+            android:id="@+id/InputMeterID"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Meter"
+            android:background="@drawable/round_coner_edit_text"
+            android:padding="8sp"
+            android:textColorHint="#DFDCDC"
+            android:inputType="numberDecimal"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:weightSum="2">
+        <Button
+            android:layout_marginLeft="5sp"
+            android:id="@+id/ShowBMIID"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:onClick="Calculation"
+            android:layout_height="match_parent"
+            android:text="Show BMI"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:layout_marginRight="10sp"
+            android:textSize="25sp"
+            />
+        <Button
+            android:layout_marginRight="5sp"
+            android:id="@+id/WeightToPoundID"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:onClick="BMiCalculation"
+            android:layout_height="match_parent"
+            android:text="Weight to Pound"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ResultShowID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
